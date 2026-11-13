@@ -1,0 +1,15 @@
+.code { border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); overflow: hidden; margin-bottom: 16px; }
+.code-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--border); font-size: 13px; }
+.code-head strong { color: var(--strong); font-weight: 500; }
+.code-head .mono { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.code pre { margin: 0; padding: 18px 20px; overflow-x: auto; font-family: var(--mono); font-size: 13px; line-height: 1.65; color: var(--text); background: var(--surface-2); tab-size: 4; }
+.code code { font-family: inherit; }
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata { color: var(--muted); font-style: italic; }
+.token.punctuation, .token.operator { color: var(--muted); }
+.token.keyword, .token.important, .token.rule, .token.atrule { color: var(--red-fg); }
+.token.string, .token.char, .token.attr-value, .token.regex { color: var(--green-fg); }
+.token.function, .token.class-name { color: var(--blue-fg); }
+.token.number, .token.boolean, .token.constant, .token.variable, .token.property, .token.attr-name { color: var(--yellow-fg); }
+.token.tag, .token.selector { color: var(--blue-fg); }
+.token.delimiter.important { color: var(--muted); }
